@@ -18,7 +18,7 @@ Add, following format in your json file
 		"APP_ID": "pusher app id",
 		"KEY": "pusher app key",
 		"SECRET": "pusher secret",
-		"CLUSTER": "pusher cluseter",
+		"CLUSTER": "pusher cluster",
 		"ENCRYPTED": true
 	}
 }
