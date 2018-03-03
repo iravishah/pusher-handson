@@ -1,10 +1,9 @@
 (function() {
     // Enable pusher logging - don't include this in production
     Pusher.logToConsole = true;
-
-    var serverUrl = "http://localhost:8888",
+    var serverUrl = "/",
         comments = [],
-        pusher = new Pusher('6cef7582399e400f200f', {
+        pusher = new Pusher('6cexxxxxxxxxxx00f', {
           cluster: 'ap2',
           encrypted: true
         }),
