@@ -11,6 +11,7 @@ You need to create config file inside env folder. If you env is local then,
 env >> local.json
 
 Add, following format in your json file
+```sh
 {
 	"PORT": 8888,
 	"PUSHER": {
@@ -21,7 +22,7 @@ Add, following format in your json file
 		"ENCRYPTED": true
 	}
 }
-
+```
 Also, change the key in app.js inside public folder.
 
 Then just type following commands:
