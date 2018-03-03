@@ -4,6 +4,7 @@ module.exports = class Route {
 	constructor(app) {
 		this.app = app;
 		this.pusher = new pusher();
+		this.routes();
 	}
 
 	routes() {
